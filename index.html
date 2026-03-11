@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malik Atlukhanov - Software Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Unbounded:wght@300;500;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <div class="bg-animation"></div>
@@ -26,7 +24,7 @@
     </header>
 
     <main>
-        <section class="hero">
+        <section class="hero" id="about">
             <div class="container">
                 <div class="hero-content">
                     <div class="hero-text">
@@ -36,9 +34,8 @@
                         </h1>
                         <p class="subtitle">Software Developer</p>
                         <p>
-                            A growth-oriented frontend developer with strong skills in building modern and responsive web applications. 
-                            With an analytical approach, strong problem-solving abilities, and a passion for continuous learning, 
-                            I aim to contribute as a valuable professional within innovative technology teams.
+                            I am a growth-oriented frontend developer with strong skills in building modern and responsive web applications. I have received training in both frontend and backend development at Code Academy, which has helped me develop a full-stack mindset. With an analytical approach, strong problem-solving abilities, and a passion for continuous learning, I constantly expand my knowledge by working on real-world projects. My goal is to contribute as a valuable professional within innovative technology teams.
+
                         </p>
                         <div class="cta-buttons">
                             <a href="#contact" class="btn btn-primary">Get in Touch</a>
@@ -62,20 +59,21 @@
                     </div>
                     <div class="skill-card fade-in">
                         <h3>JavaScript</h3>
-                        <p>Advanced</p>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="skill-card fade-in">
+                        <h3>C#</h3>
+                        <p>Intermediate</p>
                     </div>
                     <div class="skill-card fade-in">
                         <h3>React</h3>
-                        <p>Intermediate</p>
+                        <p>Basic</p>
                     </div>
                     <div class="skill-card fade-in">
                         <h3>Node.js</h3>
-                        <p>Intermediate</p>
+                        <p>Basic</p>
                     </div>
-                    <div class="skill-card fade-in">
-                        <h3>Express.js</h3>
-                        <p>Intermediate</p>
-                    </div>
+                    
                     <div class="skill-card fade-in">
                         <h3>MongoDB</h3>
                         <p>Intermediate</p>
@@ -94,11 +92,11 @@
                     </div>
                     <div class="skill-card fade-in">
                         <h3>Python</h3>
-                        <p>Basic</p>
+                        <p>Intermediate</p>
                     </div>
                     <div class="skill-card fade-in">
                         <h3>C/C++</h3>
-                        <p>Basic</p>
+                        <p>Intermediate</p>
                     </div>
                     <div class="skill-card fade-in">
                         <h3>Linux</h3>
@@ -151,13 +149,37 @@
             </div>
         </section>
 
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="gradient-text">Languages</span></h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>Azerbaijani</h3>
+                        <p>Native</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>Turkish</h3>
+                        <p>Fluent</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>English</h3>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>Russian</h3>
+                        <p>Basic</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="section">
             <div class="container">
                 <h2 class="section-title"><span class="gradient-text">Contact</span></h2>
                 <div class="contact-grid">
                     <div class="contact-card">
                         <h3>Email</h3>
-                        <a href="mailto:atluxanovmalik3@gmail.com">atluxanovmalik3@gmail.com</a>
+                        <a href="mailto:atluxanovmalik3@gmail.com" style="font-size: 0.85rem; word-break: break-all;">atluxanovmalik3@gmail.com</a>
                     </div>
                     <div class="contact-card">
                         <h3>Phone</h3>
@@ -166,13 +188,6 @@
                     <div class="contact-card">
                         <h3>Location</h3>
                         <p>Sumqayit, Azerbaijan</p>
-                    </div>
-                    <div class="contact-card">
-                        <h3>Languages</h3>
-                        <p>Azerbaijani (Native)<br>
-                        Turkish (Fluent)<br>
-                        English (Intermediate)<br>
-                        Russian (Basic)</p>
                     </div>
                 </div>
             </div>
@@ -185,7 +200,8 @@
         </div>
     </footer>
 
-    <script>
+
+ <script>
         // Scroll animation
         const observerOptions = {
             threshold: 0.1,
